@@ -1,0 +1,15 @@
+model: "Qwen/Qwen3-0.6B"   
+agent:
+  max_steps: 4             
+limits:
+  timeout_s: 6
+  mem_mb: 512
+seed: 123
+decode:
+  max_new_tokens: 1000
+  temperature: 0.0
+debug:
+  verbose_logs: false
+  save_raw_files: false
+
+
